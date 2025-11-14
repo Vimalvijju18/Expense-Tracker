@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ExpenseTrackerPro</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <div class="logo">ET</div>
+        <div>
+          <h1>ExpenseTrackerPro</h1>
+          <p class="kicker">Track, analyze and manage your finances — advanced final-year project</p>
+        </div>
+      </div>
+
+      <nav>
+        <button id="toggleTheme" class="btn small">Toggle Theme</button>
+        <a href="/" class="btn small">Dashboard</a>
+      </nav>
+    </header>
+
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+      <small>Flask · SQLite · Chart.js · CSV · Recurring · Export/Import</small>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

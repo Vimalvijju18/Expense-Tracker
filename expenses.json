@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ce8b35e0-2cea-4db9-8e49-1c19deeca13a",
+    "title": "lunch",
+    "amount": 250.0,
+    "category": "Food",
+    "date": "2025-04-12"
+  },
+  {
+    "id": "6cd98756-fa8f-48e2-8985-0f55fac2151d",
+    "title": "party",
+    "amount": 500.0,
+    "category": "Entertainment",
+    "date": "2025-04-13"
+  }
+]
